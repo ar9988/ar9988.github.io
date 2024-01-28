@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: My Blog # the main title
+title: 안드로이드 개발일지 # the main title
 
 tagline: NULL 붙잡을 이야기... # it will display as the sub-title
 
