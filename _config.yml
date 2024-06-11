@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 안드로이드 개발일지 # the main title
 
-tagline: NULL 붙잡을 이야기 # it will display as the sub-title
+tagline: 저장소 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
