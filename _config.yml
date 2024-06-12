@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 안드로이드 개발일지 # the main title
 
-tagline:  프로젝트와 경험을 공유# it will display as the sub-title
+tagline:  프로젝트와 경험을 공유 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
