@@ -58,7 +58,7 @@ class WeatherGlanceWidgetReceiver : GlanceAppWidgetReceiver() {
 }
 ```
 
-문제 상황에서는 위젯이 시스템 기본 로딩 레이아웃인 `glance_default_loading_layout`을 표시한 채 정상적인 콘텐츠로 전환되지 않았습니다. 리사이즈를 수행하면 `provideGlance()`가 다시 호출되면서 위젯이 갱신되는 현상도 확인할 수 있었습니다.
+문제 상황에서는 위젯이 시스템 기본 로딩 레이아웃인 `glance_default_loading_layout`을 표시한 채 정상적인 콘텐츠로 전환되지 않았습니다.
 
 ---
 
@@ -240,6 +240,7 @@ protected open fun createAppWidgetSession(
 ## 근본 해결 — provideGlance()에서 데이터 로딩
 
 이때 Glance 공식 문서의 `provideGlance()` 설명을 확인했습니다.
+[`provideGlance()` 공식 API 문서](https://developer.android.com/reference/kotlin/androidx/glance/appwidget/GlanceAppWidget)
 
 > "This is a good place to load any data needed to render the Composable. Use provideContent to provide the Composable once the data is ready."
 
