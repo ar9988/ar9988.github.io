@@ -1,13 +1,10 @@
+---
+title: "Glance 위젯이 프로세스 재시작 후 무한 로딩에 빠지는 이유 — AOSP 오픈소스" excerpt: "android/platform-samples의 WeatherGlanceWidget 버그를 재현·분석하고, GlanceAppWidget의 데이터 로딩 책임을 provideGlance로 옮겨 해결한 과정" categories:
+- Android tags:
+- [Kotlin,Glance,AppWidget,OpenSource,Android]
+ toc: true toc_sticky: true date: 2026-08-19
+---
 
-title: "Glance 위젯이 프로세스 재시작 후 무한 로딩에 빠지는 이유 — AOSP 오픈소스 기여기" excerpt: "android/platform-samples의 WeatherGlanceWidget 버그를 재현·분석하고, GlanceAppWidget의 데이터 로딩 책임을 provideGlance로 옮겨 해결한 과정" categories:
-* Android tags:
-* Kotlin
-* Glance
-* AppWidget
-* OpenSource
-* Android toc: true toc_sticky: true date: 2026-08-19
-
-⠀
 # 개요
 구글 공식 샘플 저장소인 ~[android/platform-samples](https://github.com/android/platform-samples)~를 살펴보다가 열려 있는 이슈 하나를 발견했습니다.
 [Bug]: WeatherGlanceWidget not reloading after relaunch (#402)
