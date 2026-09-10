@@ -16,10 +16,11 @@ timezone: Asia/Seoul
 
 title: 안드로이드 개발일지 # the main title
 
-tagline:  아이디어를 코드로 바꾸는 힘  # it will display as the sub-title
+tagline:  만들고, 재고, 다시 만듭니다  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  안드로이드 앱을 만들며 부딪힌 문제와, 그것을 측정해 고친 과정을 기록합니다.
+  Kotlin, Jetpack Compose, 성능 최적화.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
